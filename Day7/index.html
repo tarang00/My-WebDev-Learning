@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Submission Form</title>
+</head>
+<style>
+    form{
+        background-color: rgb(211, 211, 239);
+    }
+</style>
+<body>
+    <div class="form-container">
+        <h2>Submit Your Project</h2>
+        <form id="projectForm">
+            <!-- Basic Information -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            <br>
+
+            <!-- Location and College -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>Select a country</option>
+            </select>
+            <br>
+            <label for="college">College Name / Self-Educated Student:</label>
+            <input type="text" id="college" name="college" placeholder="Type your college or select" autocomplete="off" required>
+            <ul id="collegeSuggestions"></ul>
+            <br>
+            <!-- Additional Information -->
+            <label for="year">Year of Study:</label>
+            <input type="number" id="year" name="year" placeholder="Enter your current year of study" min="1" max="10" required>
+            <br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" min="13" max="100" required>
+            <br>
+
+            <label for="branch">Branch / Field of Study:</label>
+            <input type="text" id="branch" name="branch" placeholder="Enter your branch or field of study" required>
+            <br>
+
+            <!-- Project Links -->
+            <label for="projectLink">Project Video & Images (Google Drive Link):</label>
+            <input type="url" id="projectLink" name="projectLink" placeholder="Enter the Google Drive link" required>
+            <br>
+            <label for="sourceCode">Source Code (GitHub or other platforms):</label>
+            <input type="url" id="sourceCode" name="sourceCode" placeholder="Enter your source code link" required>
+            <br>
+
+            <!-- Social Media Links -->
+            <label for="linkedin">LinkedIn Profile:</label>
+            <input type="url" id="linkedin" name="linkedin" placeholder="Enter your LinkedIn profile link" required>
+            <br>
+
+            <label for="github">GitHub Account:</label>
+            <input type="url" id="github" name="github" placeholder="Enter your GitHub profile link" required>
+            <br>
+
+            <label for="instagram">Instagram Username:</label>
+            <input type="text" id="instagram" name="instagram" placeholder="Enter your Instagram username" required>
+            <br>
+
+            <label for="Comment">Enter Your Comment:</label>
+            <textarea type="text" id="Comment" name="Comment" placeholder="Enter Your Comment"></textarea>
+
+            <br>
+
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
