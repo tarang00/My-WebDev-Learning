@@ -1,0 +1,15 @@
+.red{
+    color: black;
+}
+
+.bg-yellow{
+    background-color: chartreuse;
+}
+
+#firstdiv{
+    background-color: rgb(182, 153, 135);
+}
+
+#seconddiv{
+    background-color: coral;
+}
